@@ -127,6 +127,11 @@ def contact():
 def opencv():
     return render_template('opencv.html')
 
+@app.route('/openCapture')
+def openCap():
+    return render_template('openCapture.html')
+
+
 
 
 
